@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+   margin: 0;
+   background: #050c47;
+   font-family: "Fredoka", sans-serif;
+   display: block;
+   height: 100vh;
+}
+
+h2{
+    text-align: center;
+    font-family: "Winky Rough", sans-serif;
+    color:#f3eded;
+    letter-spacing: 1px;
+}
+
+.in-btn{
+    justify-content: space-around;
+    /* border: 1px solid; */
+    display: flex;
+    width: 100%;
+}
+
+.in{
+    width: 60%;
+}
+
+.btn{
+    width: 20%;
+}
+
+input{
+    border-radius: 5px;
+    border: 2px solid black ;
+    /* margin-top:30px; */
+    height:40px;
+    width:100%;
+    /* padding-left:10px; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+input:active{
+    border:none;
+}
+#wrapper{
+    height:75%;
+    width:70%;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius:10px;
+    border: 1px solid white;
+    overflow-y: auto;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    padding:10px;
+    margin: auto;
+}
+
+#wrapper::-webkit-scrollbar{
+    visibility: hidden;
+}
+
+.in-btn button{
+    background-color:#050c47;
+    border: 1px solid #050c47;
+    box-shadow: 0 0 20px rgb(5, 12, 71,0.6);
+    border-radius: 4px;
+    width: 100%;
+    height: 45px;
+    font-family: "Fredoka", sans-serif;
+    color: #ffffff;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+.todo-text p{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 24px;
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+#todoList button{
+    background-color:#050c47;
+    border: 1px solid #050c47;
+    box-shadow: 0 0 20px rgb(5, 12, 71,0.6);
+    border-radius: 4px;
+    width: 50%;
+    height: 44px;
+    font-family: "Fredoka", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.todo-item{
+    font-size: 24px;
+    /* border: 1px solid; */
+    margin-left: 5%;
+    margin-top: 3%;
+    /* justify-content: space-between; */
+    display: flex;
+}
+
+.todo-text{
+    margin-right: 10px;
+    /* border: 1px solid; */
+    overflow-x: auto;
+    width: 70%;
+}
+
+.todo-text::-webkit-scrollbar{
+    visibility: hidden;
+}
+
+.todo-btns{
+    width: 100px;
+    gap: 10px;
+    /* border: 1px solid; */
+    display: flex;
+    margin-left: auto;
+}
